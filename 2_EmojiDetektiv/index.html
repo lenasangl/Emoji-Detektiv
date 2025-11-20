@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji-Detektiv</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');</style>
+</head>
+<body>
+
+
+
+<h1>🔎 Emoji-Detektiv 🔍</h1>
+
+<div id="gameContainer">
+
+<div id="Mode">
+<h2>Wähle den Schwierigkeitsgrad des Spiels:</h2>
+<button id="ButtonEasy">Easy</button>
+<button id="ButtonExperte">Experte</button>
+<button id="ButtonAlleFragen">Alle Fragen</button>
+</div>
+
+
+<div id="gameDiv" style="display: none;">
+<h3 id="Frage">🤔</h3>
+
+<input type="text" id="antwort" placeholder="Was bedeutet das?">
+<button id="pruefen">Antwort prüfen</button>
+
+<p id="feedback"></p>
+
+<div id="punkteAnzeige">Punkte: 0</div>
+
+<button id="ZurueckZuMode">neues Spiel</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!--
+Aufgabe 2: Erweiterung
+ich habe mich für folgendes Entschieden:
+- 3 verschiedene Spielmodi (Easy, Experte, alle Fragen)
+- Easy: einfache Fragen ohne Zeitdruck, mit zufälliger Auswahl und Punktesystem -> grundsätzlich endlos spielbar
+- Experte: im Hintergrund läuft Timer mit, schwierigere Fragen, zufälliger Auswahl, Punktesystem -> grundsätzlich endlos spielbar
+- Alle Fragen: Alle Fragen kommen nach der Reihe - wenn man alle Fragen beantwortet hat, hat man das Spiel geschafft, Punktesystem
+
+
+
+Aufgabe 4: Reflexion
+
+Was war die größte Herausforderung beim Debuggen?
+Für mich war es erstmal schwierig generell ein "Grundverständnis" für den Code aufzubauen, weil ich ihn ja nicht selbst
+geschrieben habe. Also zu verstehen, was welcher Part machen soll, bzw. machen sollte.
+Fehler mit Groß- und Kleinschreibung waren für mich etwas schwieriger zum Erkennen. Achte, wenn ich selber Code schreibe
+irgendwie nicht so bewusst darauf was groß- und was kleingeschrieben wird...
+
+
+Was hast du bei der Erweiterung gelernt?
+Ich habe mich bewusst bei dem Javascript-part auch über ein paar Sachen entschieden, welche für mich nicht so einfach waren.
+Durch die relativ freie Aufgabenstellung habe ich viel ausprobiert und so auch mein Wissen in diesem Bereich etwas erweitert/aufgefrischt.
+
+
+Was war deine kreative Idee hinter deinem Design?
+Location eines Detektivbüros in das Design aufnehemen
+Ich habe mir ein Bild gesucht, das meiner Meinung nach gut zum Thema gepasst hat und auf Basis von diesem Bild mein Design angepasst.
+-> ich habe mich bewusst gegen ein "moderneres Design" entscheiden - der retro touch passt finde ich besser zum Thema
+
+-->
